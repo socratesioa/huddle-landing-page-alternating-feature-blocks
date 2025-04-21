@@ -21,8 +21,9 @@
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
   </head>
-  <div class="wrapper">
-    <body>
+
+  <body>
+    <div class="wrapper">
       <header>
         <div id="header-wrapper">
           <img src="./images/logo.svg" alt="Huddle Logo" class="logo" />
@@ -127,7 +128,7 @@
                   <p>example@huddle.com</p>
                 </div>
               </div>
-              <div class="foot-menu">
+              <nav class="foot-menu">
                 <ul class="footer-nav">
                   <li><a href="#" class="footer-link">About Us</a></li>
                   <li><a href="#" class="footer-link">What We Do</a></li>
@@ -138,7 +139,7 @@
                   <li><a href="#" class="footer-link">Blog</a></li>
                   <li><a href="#" class="footer-link">Contact Us</a></li>
                 </ul>
-              </div>
+              </nav>
               <div class="copyright">
                 <ul class="social">
                   <li>
@@ -202,12 +203,11 @@
           </div>
         </div>
       </footer>
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          document.getElementById("year").textContent =
-            new Date().getFullYear();
-        });
-      </script>
-    </body>
-  </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("year").textContent = new Date().getFullYear();
+      });
+    </script>
+  </body>
 </html>
